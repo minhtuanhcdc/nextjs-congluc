@@ -1,0 +1,20 @@
+.input_group {
+    @apply flex px-4 items-center;
+}
+
+.form_input {
+    @apply bg-gradient-to-r from-indigo-500 to-blue-500 flex flex-col px-2 py-4 space-y-2;
+}
+
+.button_login {
+    @apply w-3/4 h-8 mt-4 py-1 px-4 rounded-lg text-white transition ease-in-out delay-150 bg-blue-800 hover:-translate-y-1 hover:bg-indigo-600 duration-300;
+}
+.input_text{
+    @apply p-2 flex-1 h-8 border border-blue-600 -mr-8;
+}
+.input_text+*{
+    @apply text-gray-600 hover:text-gray-900;
+}
+.input_text:focus+*{
+    @apply text-gray-800
+}

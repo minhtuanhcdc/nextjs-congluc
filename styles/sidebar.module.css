@@ -1,0 +1,31 @@
+.sidebar_full {
+    @apply flex bg-gray-900 w-64 text-white min-h-screen;
+}
+
+.sidebar_icon {
+    @apply flex bg-gray-900 w-16 text-white min-h-screen justify-center;
+}
+.container_dashboard{
+    @apply border-b-2 border-green-700 py-2;
+}
+.icon_x{
+    @apply flex justify-between px-2 pl-4;
+}
+.icon_menu{
+
+}
+.icon_view {
+    @apply block;
+}
+
+.icon_hide {
+    @apply hidden;
+}
+.active{
+    @apply text-green-800;
+}
+.item {
+    @apply flex px-4 py-2 items-center w-full space-x-2 hover:bg-green-500;
+    transition:all 0.5s;
+}
+
